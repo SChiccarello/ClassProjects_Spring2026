@@ -1,5 +1,6 @@
 body {
     background-color: pink;
+    color: black;
 }
 
 img {
@@ -79,11 +80,53 @@ main h2 {
     display: flex;
 }
 
-section, aside {
+section, 
+aside {
     border-radius: 20px;
     border: 2px solid white;
     margin: 20px;
     padding: 20px;
+}
+    
+section {
+    width: 75%;
+}
 
+aside {
+    width: 25%;
+}
 
+section img {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 75%;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.img_style {
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.contact_content {
+    text-align: center;
 }
