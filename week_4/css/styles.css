@@ -36,7 +36,7 @@ header {
 
 header h1 {
     color: white;
-    font size: 50px;
+    font-size: 50px;
 }
 
 nav {
@@ -71,7 +71,8 @@ nav li a:hover{
     background-color: pink;
 }
 
-main h2 {
+main h2,
+main h3 {
     text-align: center;
     color: white;
 }
@@ -125,8 +126,21 @@ iframe {
     margin: 20px auto;
     border-radius: 10px;
     border: 2px solid black;
+    width: 65%;
+    height: 450px;
 }
 
 .contact_content {
     text-align: center;
+}
+
+.single_col {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.img_resize{
+    display: block;
+    margin: 20px auto;
+    width: 50%;
 }
