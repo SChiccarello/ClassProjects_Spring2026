@@ -17,6 +17,31 @@ a {
 a:hover {
     text-decoration: none;
 }
+section, 
+aside {
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 20px;
+    padding: 20px;
+}
+    
+section {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+
+section img {
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 75%;
+}
+main h2,
+main h3 {
+    text-align: center;
+    color: white;
 
 /* Mobile Styles */
 
@@ -40,7 +65,7 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: #D4BCE0;
+    background-color: #ee45c9;
     height:  40px;
     line-height: 40px;
     text-decoration: none;
@@ -49,7 +74,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #8D58E0;
+    background-color: #a024b9;
 }
 
 main {
